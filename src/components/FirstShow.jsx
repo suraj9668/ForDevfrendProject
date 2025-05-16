@@ -250,82 +250,63 @@ function FirstShow() {
             </div>
 
 
-            <div className='bg-[#111827] w-full pt-20 pb-20'>
-                <div className='col-span-2 container mx-auto pt-9'>
-                    <div className="text-center mb-16 space-y-4">
-                        <h3 className="text-xl text-blue-500 font-medium transition-transform duration-300 hover:-translate-y-1">
-                            Our Commitment
-                        </h3>
-                        <h1 className="text-5xl font-bold text-white relative inline-block group">
-                            Why Choose PMC Barbershop?
-                            <span className="absolute left-1/2 -translate-x-1/2 top-13 w-12 h-1 bg-gradient-to-r from-cyan-400 to-blue-500 transition-all duration-500 group-hover:w-full"></span>
-                        </h1>
-                        <p className="mt-4 text-gray-400 text-xl max-w-xl mx-auto">
-                            What makes us the premier barbershop in Denton, TX.
-                        </p>
-                    </div>
+           <div className='bg-[#111827] w-full pt-20 pb-20'>
+    <div className='col-span-2 container mx-auto pt-9'>
+        <div className="text-center mb-16 space-y-4">
+            <h3 className="text-xl text-blue-500 font-medium transition-transform duration-300 hover:-translate-y-1">
+                Our Commitment
+            </h3>
+            <h1 className="text-5xl font-bold text-white relative inline-block group">
+                Why Choose PMC Barbershop?
+                <span className="absolute left-1/2 -translate-x-1/2 top-13 w-12 h-1 bg-gradient-to-r from-cyan-400 to-blue-500 transition-all duration-500 group-hover:w-full"></span>
+            </h1>
+            <p className="mt-4 text-gray-400 text-xl max-w-xl mx-auto">
+                What makes us the premier barbershop in Denton, TX.
+            </p>
+        </div>
+    </div>
+    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 container mx-auto '>
+        <div className="relative group mt-9 rounded-2xl bg-[#242935] transition-all duration-500 hover:border hover:border-blue-500">
+            <div className="absolute left-0 top-0 h-full w-1 bg-blue-500 rounded-l-2xl group-hover:h-1 group-hover:w-full group-hover:rounded-t-2xl group-hover:rounded-l-none transition-all duration-500"></div>
+
+            <div className='bg-[#242935] rounded-2xl p-7 pl-9 transition-all duration-500'>
+                <div className='w-24 h-24 rounded-2xl flex justify-center items-center text-blue-500 text-3xl bg-[#06101aa8] mt-5 ml-0'>
+                    User
                 </div>
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 container mx-auto '>
-                    <div className="relative group mt-9 rounded-2xl bg-[#242935] transition-all duration-500 hover:border hover:border-blue-500">
-                        {/* Left to Top Border Transition */}
-                        <div className="absolute left-0 top-0 h-full w-1 bg-blue-500 rounded-l-2xl group-hover:h-1 group-hover:w-full group-hover:rounded-t-2xl group-hover:rounded-l-none transition-all duration-500"></div>
-
-                        <div className='bg-[#242935] rounded-2xl p-7 pl-9 transition-all duration-500'>
-                            {/* Icon / Title Box */}
-                            <div className='w-24 h-24 rounded-2xl flex justify-center items-center text-blue-500 text-3xl bg-[#06101aa8] mt-5 ml-0'>
-                                Home
-                            </div>
-
-                            {/* Title */}
-                            <p className='text-2xl font-bold ml-1 mt-6 text-white'>HairCut</p>
-
-                            {/* Description */}
-                            <p className='text-xl text-gray-500 mt-6 leading-relaxed'>
-                                Our skilled barbers deliver precision haircuts tailored to your style and face shape. From classic cuts to modern fades, we ensure you leave looking sharp and confident.
-                            </p>
-                        </div>
-                    </div>
-                    <div className="relative group mt-9 rounded-2xl bg-[#242935] transition-all duration-500 hover:border hover:border-blue-500">
-                        {/* Left to Top Border Transition */}
-                        <div className="absolute left-0 top-0 h-full w-1 bg-blue-500 rounded-l-2xl group-hover:h-1 group-hover:w-full group-hover:rounded-t-2xl group-hover:rounded-l-none transition-all duration-500"></div>
-
-                        <div className='bg-[#242935] rounded-2xl p-7 pl-9 transition-all duration-500'>
-                            {/* Icon / Title Box */}
-                            <div className='w-24 h-24 rounded-2xl flex justify-center items-center text-blue-500 text-3xl bg-[#06101aa8] mt-5 ml-0'>
-                                Home
-                            </div>
-
-                            {/* Title */}
-                            <p className='text-2xl font-bold ml-1 mt-6 text-white'>HairCut</p>
-
-                            {/* Description */}
-                            <p className='text-xl text-gray-500 mt-6 leading-relaxed'>
-                                Our skilled barbers deliver precision haircuts tailored to your style and face shape. From classic cuts to modern fades, we ensure you leave looking sharp and confident.
-                            </p>
-                        </div>
-                    </div>
-                    <div className="relative group mt-9 rounded-2xl bg-[#242935] transition-all duration-500 hover:border hover:border-blue-500">
-                        {/* Left to Top Border Transition */}
-                        <div className="absolute left-0 top-0 h-full w-1 bg-blue-500 rounded-l-2xl group-hover:h-1 group-hover:w-full group-hover:rounded-t-2xl group-hover:rounded-l-none transition-all duration-500"></div>
-
-                        <div className='bg-[#242935] rounded-2xl p-7 pl-9 transition-all duration-500'>
-                            {/* Icon / Title Box */}
-                            <div className='w-24 h-24 rounded-2xl flex justify-center items-center text-blue-500 text-3xl bg-[#06101aa8] mt-5 ml-0'>
-                                Home
-                            </div>
-
-                            {/* Title */}
-                            <p className='text-2xl font-bold ml-1 mt-6 text-white'>HairCut</p>
-
-                            {/* Description */}
-                            <p className='text-xl text-gray-500 mt-6 leading-relaxed'>
-                                Our skilled barbers deliver precision haircuts tailored to your style and face shape. From classic cuts to modern fades, we ensure you leave looking sharp and confident.
-                            </p>
-                        </div>
-                    </div>
-
-                </div>
+                <p className='text-2xl font-bold ml-1 mt-6 text-white'>Expert Barbers</p>
+                <p className='text-xl text-gray-500 mt-6 leading-relaxed'>
+                    Our team consists of certified barbers with years of experience in classic and modern cutting techniques, beard grooming, and men's styling.
+                </p>
             </div>
+        </div>
+        <div className="relative group mt-9 rounded-2xl bg-[#242935] transition-all duration-500 hover:border hover:border-blue-500">
+            <div className="absolute left-0 top-0 h-full w-1 bg-blue-500 rounded-l-2xl group-hover:h-1 group-hover:w-full group-hover:rounded-t-2xl group-hover:rounded-l-none transition-all duration-500"></div>
+
+            <div className='bg-[#242935] rounded-2xl p-7 pl-9 transition-all duration-500'>
+                <div className='w-24 h-24 rounded-2xl flex justify-center items-center text-blue-500 text-3xl bg-[#06101aa8] mt-5 ml-0'>
+                    Scissors
+                </div>
+                <p className='text-2xl font-bold ml-1 mt-6 text-white'>Premium Tools & Products</p>
+                <p className='text-xl text-gray-500 mt-6 leading-relaxed'>
+                    We use only high-quality barbering tools and premium men's grooming products to ensure the best results for your hair and skin.
+                </p>
+            </div>
+        </div>
+        <div className="relative group mt-9 rounded-2xl bg-[#242935] transition-all duration-500 hover:border hover:border-blue-500">
+            <div className="absolute left-0 top-0 h-full w-1 bg-blue-500 rounded-l-2xl group-hover:h-1 group-hover:w-full group-hover:rounded-t-2xl group-hover:rounded-l-none transition-all duration-500"></div>
+
+            <div className='bg-[#242935] rounded-2xl p-7 pl-9 transition-all duration-500'>
+                <div className='w-24 h-24 rounded-2xl flex justify-center items-center text-blue-500 text-3xl bg-[#06101aa8] mt-5 ml-0'>
+                    Home
+                </div>
+                <p className='text-2xl font-bold ml-1 mt-6 text-white'>Classic Barbershop Experience</p>
+                <p className='text-xl text-gray-500 mt-6 leading-relaxed'>
+                    Enjoy a comfortable, clean shop with a classic barbershop atmosphere where you can relax while getting a great cut or shave.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
 
 
             <div className='bg-[#1F2937] w-full pt-20 pb-20'>
